@@ -1,0 +1,104 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-color: #c5c5c5;
+  }
+
+ 
+  nav a{
+    color: white;
+    text-decoration: none;  /*Hay un color de primer plano establecido y no hay color de fondo*/
+    margin: 0 10px;
+  }
+
+  .migas {
+    font-size: 0.8em; 
+    color: rgb(255, 0, 0);  /*Hay un color de primer plano establecido y no hay color de fondo*/
+  }
+  header {
+    background-color: blue; /*Hay un color de fondo establecido y no hay color de fondo*/
+
+  }
+  header a{
+    color: white;
+    text-decoration: none; /*Hay un color de primer plano establecido y no hay color de fondo*/
+  }
+
+  h1{
+    color: white;
+    font-size: 3em; /*Hay un color de primer plano establecido y no hay color de fondo*/
+  }
+p{
+  margin: 0 15px; 
+  font-size: 1em; 
+}
+
+a:hover{
+  color: rgb(255, 0, 0); 
+  text-decoration: underline; /*Hay un color de primer plano establecido y no hay color de fondo*/
+}
+
+a:active {
+  color: rgb(255, 141, 146);  /*Hay un color de primer plano establecido y no hay color de fondo*/
+}
+
+
+
+
+main ul {
+  list-style-type: square; 
+  font-size: 1.2em;
+}
+
+
+li ul{
+  list-style-type: circle;
+  color: rgb(55, 0, 255); /*Hay un color de primer plano establecido y no hay color de fondo*/
+}
+
+ol{
+  list-style-type: upper-roman; 
+  font-size: 1em;
+}
+
+
+dt {
+  font-weight: bold;
+  font-size: 1.3em; 
+  color: #ff0000; 
+}
+
+dd {
+
+  font-size: 1.2em; 
+  color: #292929; 
+  background-color: #ecf0f1; 
+  padding: 10px;
+}
+
+.tabla-carrera thead th {
+  background-color: #4CAF50;  /* Color de fondo del encabezado */
+  color: white;               /* Texto blanco para el encabezado */
+  padding: 12px;              /* Espaciado interno */
+  text-transform: uppercase;  /* Texto en mayúsculas */
+}
+
+.tabla-carrera tbody td {
+  padding: 12px;     
+  color:rgb(255, 0, 0);       /* Espaciado interno */
+  border-bottom: 1px solid #ddd;  /* Línea divisoria entre filas */
+}
+.tabla-carrera tbody tr:hover {
+  background-color: #f1f1f1;      /* Color de fondo al pasar el mouse */
+}
+
+video {
+  width:100%;
+  height:auto;
+}
+
+ img {
+  max-width: 100%;   /* La imagen nunca será más ancha que el contenedor */
+  height: auto;      /* Mantener la proporción de la imagen */
+}
